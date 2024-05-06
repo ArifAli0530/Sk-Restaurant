@@ -1,0 +1,266 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+           menu
+        </title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+           @font-face{
+     font-family: fonto;
+     src: url(../website/font/fonto.otf);
+           }
+  *{
+       padding: 0;
+       margin: 0;
+   }
+   body{
+   background-color: #101010;
+   }
+      
+   nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding: top 0;   
+   
+}
+h1{
+   font-family: fonto ; 
+   color: red;
+   font-size: 4em;
+   padding-top: 25px ;
+   padding-left: 0;
+   
+}
+nav ul li{
+    list-style-type: none;
+   display: inline-block;
+   padding: 25px 20px;
+}
+nav ul li a{
+   color: orangered;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: fonto;
+   font-size: 1.5em;
+}
+nav ul li a:hover{
+   color:white;
+   transition: .35;
+}
+
+body {
+ font-family: "Poppins", sans-serif;
+ font-size: 16px;
+ line-height: 22px;
+ color: #222;
+}
+
+.main {
+ width: 1170px;
+ margin: 100px auto;
+}
+.section-title {
+ text-align: center;
+ margin-bottom: 80px;
+}
+.section-title h2 {
+   color: orangered;
+ text-transform: capitalize;
+ font-size: 35px;
+ position: relative;
+ display: inline-block;
+ padding-bottom: 20px;
+ margin-bottom: 10px;
+}
+.section-title h2:before {
+ content: "";
+ position: absolute;
+ width: 60px;
+ height: 3px;
+ background-color: #00875c;
+ bottom: 0;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+.menus {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.menu-column {
+ width: 31%;
+}
+.menu-column h4 {
+ text-transform: capitalize;
+ font-size: 24px;
+ font-weight: 500;
+ margin-bottom: 20px;
+ position: relative;
+ padding-bottom: 10px;
+ color: orangered;
+}
+.menu-column h4:before {
+ content: "";
+ position: absolute;
+ width: 40px;
+ height: 2px;
+ background-color: #00875c;
+ bottom: 0;
+}
+.single-menu {
+ display: flex;
+ align-items: center;
+ margin-top: 40px;
+}
+.single-menu img {
+ border-radius: 50%;
+ max-width: 110px;
+ border: 1px dashed #ddd;
+ padding: 3px;
+ margin-right: 15px;
+ transition: .3s;
+}
+.single-menu .menu-content h5 {
+ text-transform: capitalize;
+ font-size: 22px;
+ font-weight: 500;
+ border-bottom: 1px dashed #222;
+ padding-bottom: 5px;
+ margin-bottom: 10px;
+ color: orangered;
+}
+.single-menu .menu-content h5 span {
+ color: #00875c ;
+ float: right;
+ font-weight: 600;
+ font-style: italic;
+}
+.single-menu .menu-content p{
+   color: #00875c;
+}
+.single-menu .menu-content button{
+   text-align: center;
+   cursor: pointer;
+}
+.single-menu .menu-content  button:hover{
+   background: orangered;
+   transition-duration: 0.4s;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.single-menu .menu-content h6{
+   color: #00875c;
+}
+</style>
+</head>
+<body>
+   <nav>
+       <h1>SK Restaurant</h1>
+    
+    <ul>
+   <li><a href="index.html">HOME</a></li>
+    <li><a href="menu.html">MENU</a></li>
+    <li><a  href="table book.html">TABLE BOOK</a></li>
+    <li><a  href="contact.html">CONTACT</a></li>
+    <li><a  href="about.html">ABOUT</a></li>
+   </ul>
+   </nav>
+<div class="main">
+   <div class="section-title">
+       <h2>our menu</h2>
+       
+   </div>
+   <div class="menus">
+       <div class="menu-column">
+           <h4> Range: below<100 </h4>
+           <div class="single-menu">
+               <img src="images/burger.jpg" alt="">
+               <div class="menu-content">
+                   <h5> Burger <span> Rs.60</span></h5>
+                   <h6 class="unit"> Quantity: <input value="0"></h6>
+                   <button>Add to cart</button>
+                   
+               </div>
+           </div>
+           <div class="single-menu">
+               <img src="images/food-g34b4526eb_1920.jpg" alt="">
+               <div class="menu-content">
+                   <h5>Spring Rolls<span>Rs.90</span></h5>
+                   <h6 class="unit"> Quantity: <input value="0"></h6>
+                   <button>Add to cart</button>
+               </div>
+           </div>
+           <div class="single-menu">
+               <img src="images/french fries.jpg" alt="">
+               <div class="menu-content">
+                   <h5>French Fries <span>Rs.80</span></h5>
+                   <h6 class="unit"> Quantity: <input value="0"></h6>
+                   <button>Add to cart</button>
+               </div>
+           </div>
+       </div>
+       <div class="menu-column">
+           <h4>Range: between 100-300</h4>
+           <div class="single-menu">
+               <img src="images/pizza.jpg" alt="">
+               <div class="menu-content">
+                   <h5> Pizza <span>Rs.120</span></h5>
+                   <h6 class="unit"> Quantity: <input value="0"></h6>
+                   <button>Add to cart</button>
+               </div>
+           </div>
+           <div class="single-menu">
+               <img src="images/pasta.jpg" alt="">
+               <div class="menu-content">
+                   <h5>Pasta<span>Rs.150</span></h5>
+                   <h6 class="unit"> Quantity: <input value="0"></h6>
+                   <button>Add to cart</button>
+               </div>
+           </div>
+           <div class="single-menu">
+               <img src="./images/sandwitch.jpg" alt="">
+               <div class="menu-content">
+                   <h5>Sandwitch <span>Rs.110</span></h5>
+                   <h6 class="unit"> Quantity: <input value="0"></h6>
+                   <button>Add to cart</button>
+               </div>
+           </div>
+       </div>
+       <div class="menu-column">
+           <h4>Range: Above>300</h4>
+           <div class="single-menu">
+               <img src="images/Screenshot (19).png" alt="">
+               <div class="menu-content">
+                   <h5>Family combo <span>Rs.600</span></h5>
+                   <p>3 medium pizza + 2 burger + 500ml coke </p>
+                   <h6 class="unit"> Quantity: <input value="0"></h6>
+                   <button>Add to cart</button>
+               </div>
+           </div>
+           <div class="single-menu">
+               <img src="images/Screenshot (20).png" alt="">
+               <div class="menu-content">
+                   <h5>Burger Combo<span>Rs.310</span></h5>
+                 <p> 2 Aloo tikki burger + french fries + 500ml coke </p>
+                 <h6 class="unit"> Quantity: <input value="0"></h6>
+                 <button>Add to cart</button>
+               </div>
+           </div>
+           <div class="single-menu">
+               <img src="images/Screenshot (21).png" alt="">
+               <div class="menu-content">
+                   <h5>Mix special combo <span>Rs.650</span></h5>
+                   <p> 1pizza + 1 pasta + 1 french fries + 2 burger + 500ml coke </p>
+                   <h6 class="unit"> Quantity: <input value="0"></h6>
+                   <button>Add to cart</button>  
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+</body></html>

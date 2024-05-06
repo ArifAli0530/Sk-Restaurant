@@ -1,0 +1,85 @@
+@font-face{
+    font-family: fonto;
+    src: url(../font/fonto.otf);
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.background
+{
+    background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/chili-gd0f99b9b4_1920.jpg);
+    background-position: center;
+    background-size: cover;
+   height: 100vh;
+  max-width: 100% ;
+background-attachment: fixed;
+}
+ h1{
+    font-family: fonto ; 
+    color: red;
+    font-size: 4em;
+    text-align: center;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: top 0;
+    
+    
+}
+nav ul li{
+     list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: fonto;
+    font-size: 1.5em;
+}
+nav ul li a:hover{
+    color:white;
+    transition: .35;
+
+}
+h2{
+    font-family: cursive;
+    color: white;
+    padding: 100px ;
+    margin-top: 20px;
+    padding-left: 5%;
+}
+ h2 p{
+    font-family: cursive;
+    color: orangered;
+    font-size: 150%;
+ }
+
+ div button{
+    font-size: 20px;
+    margin:20px 0 20px 60px ;
+    width: 10%;
+    padding: 10px 10px;
+    border: 0;
+    color: black;
+    cursor: pointer;
+    border-radius: 24px;
+    text-align: center;
+    transition: 0.25;
+    font-family: cursive;
+
+  }
+  div button:hover{
+    background: orangered;
+  }

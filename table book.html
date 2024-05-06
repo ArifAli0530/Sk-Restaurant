@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+            Table book
+        </title>
+        <style>
+            @font-face{
+      font-family: fonto;
+      src: url(../website/font/fonto.otf);
+            }
+   *{
+        padding: 0;
+        margin: 0;
+    }
+      body{
+        background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./images/adrien-olichon-ilVYjf0J378-unsplash.jpg') no-repeat;
+                background-size: cover;
+                height: 100vh;
+                max-width: 100% ;
+                background-attachment: fixed;
+      }
+    
+        nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: top 0;   
+}
+h1{
+    font-family: fonto ; 
+    color: red;
+    font-size: 4em;
+    text-align: center;
+    padding-left: 0%;
+    
+}
+nav ul li{
+     list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: fonto;
+    font-size: 1.5em;
+}
+nav ul li a:hover{
+    color:white;
+    transition: .35;
+
+}
+
+  
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: orangered;
+  padding-left: 36%;
+  font-size: 3em;
+  padding-top: 2%;
+}
+
+
+  .form_container {
+    text-decoration: solid;
+      color: black;
+      border-radius: 25px;
+       width: 300px;
+       border: 5px solid orangered;
+       padding: 20px 140px 20px 140px;
+        margin: 40px 0 0 450px ;
+        text-align: center;
+        
+    }
+  input{
+    width:100%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 25px;
+  text-align: center;
+  }
+  select{
+    width:100%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 25px;
+  text-align: center;
+  }
+  select:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  button{
+    text-align: center;
+     padding: 12px 20px;
+    margin: 20px 0;
+    width: 50%;
+   border-radius: 25px;
+   cursor: pointer;
+  
+}
+  input:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  button:hover{
+    background: orangered;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+  
+
+      </style>
+    </head>
+    <body>
+        <nav>
+            <h1>SK Restaurant</h1>
+         
+         <ul>
+        <li><a href="index.html">HOME</a></li>
+         <li><a href="menu.html">MENU</a></li>
+         <li><a  href="table book.html">TABLE BOOK</a></li>
+         <li><a  href="contact.html">CONTACT</a></li>
+         <li><a  href="about.html">ABOUT</a></li>
+        </ul>
+        </nav>
+           <h2>
+            &#128523  Book your Table &#127858;
+            </h2>
+            
+             <div class="form_container">
+                  <form action="">
+                    <div>
+                      <input type="text"  placeholder="Full Name" />
+                    </div>
+                    <div>
+                      <input type="text"  placeholder="Mobile number" />
+                    </div>
+                    <div>
+                      <input type="email" placeholder=" Email" />
+                    </div>
+                    <div>
+                        <select >
+                            <option value=""disabled selected>
+                              No. of  persons?
+                            </option>
+                            <option value="">
+                              1
+                            </option>
+                            <option value="">
+                              2
+                            </option>
+                            <option value="">
+                              3
+                            </option>
+                            <option value="">
+                              4
+                            </option>
+                            <option value="">
+                              5
+                            </option>
+                            <option value="">
+                              6
+                            </option>
+                          </select>
+                      
+                    </div>
+                    <div>
+                      <input type="date" >
+                    </div>
+                    
+                      <button>
+                        Book Now
+                      </button>
+                    
+                  </form>
+                </div>
+              
+          
+    </body>
+</html>

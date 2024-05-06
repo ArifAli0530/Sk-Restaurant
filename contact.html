@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+           contact
+        </title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            @font-face{
+      font-family: fonto;
+      src: url(../website/font/fonto.otf);
+            }
+   *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+                background-color: #101010;
+    }
+       
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: top 0;   
+    
+}
+h1{
+    font-family: fonto ; 
+    color: red;
+    font-size: 4em;
+    
+    padding-left: 0;
+    
+}
+nav ul li{
+     list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: fonto;
+    font-size: 1.5em;
+}
+nav ul li a:hover{
+    color:white;
+    transition: .35;
+}
+.contact-me{
+	width: 100%;
+	height: 500px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+
+.contact-me form input{
+	width:100%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+button{
+	background-color:orangered;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 40px;
+	margin: 45px 50px 25px 50px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid orangered;
+	cursor: pointer;
+}
+
+	
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+    background: orangered ;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>SK Restaurant</h1>
+     
+     <ul>
+    <li><a href="index.html">HOME</a></li>
+     <li><a href="menu.html">MENU</a></li>
+     <li><a  href="table book.html">TABLE BOOK</a></li>
+     <li><a  href="contact.html">CONTACT</a></li>
+     <li><a  href="about.html">ABOUT</a></li>
+    </ul>
+    </nav>
+    <div class="contact-me">
+		<p>Hello everyone Contact us and submit your review  &#128522:</p>
+		
+			<form action="">
+				<div>
+				  <input type="text"  placeholder=" Name" />
+				</div>
+				<div>
+				  <input type="text"  placeholder="Mobile number" />
+				</div>
+				<div>
+				  <input type="email" placeholder=" Email" />
+				</div>
+				<div>
+					<input type="text" placeholder=" Review" />
+				  </div>
+		          <button> submit
+				  </button>
+		</div>
+</form>
+	
+	<footer>
+		<p>Sk Restaurant</p>
+		<p> Contact us:</p>
+		<div class="social">
+			<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+		</div>
+		
+	</footer>
+</body>
+</html>

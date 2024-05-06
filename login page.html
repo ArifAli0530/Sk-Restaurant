@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+            Login 
+        </title>
+        
+        <style>
+          @font-face{
+    font-family: fonto;
+    src: url(../website/font/fonto.otf);
+    
+}
+            *{
+                padding: 1%;
+                margin: 0;
+                font-family: cursive;
+                
+            }
+            body{
+                background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/loginbg.jpg') no-repeat ;
+                background-size: cover;
+            }  
+            .login-page{
+                
+                width: 350px;
+                top: 70%;
+                left: 20%;
+                transform: translate(-50%,-50%);
+                position: absolute;
+                
+            
+            }
+            .login-page h1{
+
+                font-size: 40px;
+                text-align: center;
+                
+                margin: 0;
+                color:orangered ;
+            }
+            .login-page input{
+            
+                margin: 20px auto;
+                font-size: 16px;
+                width:100%;
+                padding: 15px 10px;
+                border-radius: 24px;
+                text-align: center;
+                
+
+                
+            }
+            .login-page div a{
+                justify-content: space-between;
+                margin: 30px;
+                color: white;
+                
+            }
+            .login-page div a:hover{
+                  color:orangered;
+            }
+            .login-page button{
+                font-size: 19px;
+                font-weight: bold;
+                margin: 20px 0;
+                width: 50%;
+                padding: 14px 40px;
+                border-radius: 5px;
+                border: 0;
+                color: black;
+                cursor: pointer;
+                border-radius: 24px;
+                text-align: center;
+                transition: 0.25;
+            }
+            .login-page button:hover{
+                background: orangered;
+
+            }       
+             nav{
+                 font-family: fonto ; 
+                 color: red;
+                 font-size: 5em;
+                 text-align: left;
+                 padding-top: 0.1%;
+                
+            }
+        
+        </style>
+    </head>
+    <body>
+        <nav>
+            SK Restaurant
+        </nav>
+        <div class=" login-page">
+            <h1>	&#128100 Login </h1>
+             <form action="#" method="post" >
+              <input type="text" name="user" placeholder="User Name">
+            
+                <input type="password" name="password" placeholder="Password">
+                <div>
+                    <a href="#">Forgot Password ?</a>
+				<a href="#">Signup</a>
+            </div>
+                <button type="submit">Login</button>
+             
+             </form>
+
+        </div>
+    </body>
+</html>
